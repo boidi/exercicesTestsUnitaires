@@ -50,7 +50,7 @@ describe('Les chaines de caractères : ', function () {
     });
     it('Compter le nombre d\'espace dans la chaine', function () {
         var result = NombreEspaceString('Sire ouvrez on en a gros!');
-        expect(result).toEqual(5);
+        expect(result).toEqual(4);
     });
     it('Inverser une chaine de caractères', function () {
         var result = InverseString('Après demain, à partir d\'aujourd\'hui?');
